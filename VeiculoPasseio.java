@@ -1,5 +1,5 @@
 package concessionaria;
 
-public class VeiculoPasseio implements Veiculo{
+public class VeiculoPasseio extends Veiculo{
     double consumoKmLt;
 }

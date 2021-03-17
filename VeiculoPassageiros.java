@@ -1,5 +1,5 @@
 package concessionaria;
 
-public class VeiculoPassageiros implements Veiculo {
+public class VeiculoPassageiros extends Veiculo {
     int nroPass;
 }
