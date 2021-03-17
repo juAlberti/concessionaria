@@ -1,6 +1,6 @@
 package concessionaria;
 
-public class VeiculoUtilitario implements Veiculo{
+public class VeiculoUtilitario extends Veiculo{
     int capCargaTon;
     int nroEixos;
 }
