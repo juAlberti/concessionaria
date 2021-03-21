@@ -1,5 +1,3 @@
-package concessionaria;
-
 public class Veiculo {
     String placa;
     String marca;
@@ -7,7 +5,15 @@ public class Veiculo {
     int ano;
     double valor;
 
-    public String getPlaca() { return placa; }
+    public Veiculo(String placa, String marca, String modelo, int ano, double valor){
+        this.placa = placa;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.valor = valor;
+    }
+
+    /*public String getPlaca() { return placa; }
 
 	public void setPlaca(String placa) { this.placa = placa; }
 
@@ -25,5 +31,5 @@ public class Veiculo {
 
     public double getValor() { return valor; }
 
-	public void setValor(double valor) { this.valor = valor; }
+	public void setValor(double valor) { this.valor = valor; }*/
 }
